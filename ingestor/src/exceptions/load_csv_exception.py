@@ -1,0 +1,2 @@
+class LoadCsvException(BaseException):
+    pass

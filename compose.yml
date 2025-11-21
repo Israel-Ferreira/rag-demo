@@ -1,0 +1,13 @@
+services:
+  vector-db:
+    image: qdrant/qdrant
+
+    ports:
+      - 6333:6333
+
+
+    volumes:
+      - ./vector-data:/qdrant/storage:z
+
+
+    
